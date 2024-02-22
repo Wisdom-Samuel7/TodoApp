@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    section{
+        width: 70%;
+        height: 70%;
+        border-radius: 1em;
+        background: wheat;
+        padding: .5em .4em;
+        display: flex;
+       align-items: center;
+        flex-direction: column;
+    }
+    h1{
+        text-align: center;
+        margin-bottom: 1em;
+        color: chocolate;
+        
+    }
+    h1 span{
+        color: brown;
+        font-size: smaller;
+    }
+    form{
+        width: 70%;
+        height: fit-content;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: .5em .5em;
+    }
+    input{
+        padding: .7em .5em;
+        width: 100%;
+        border: none;
+        border-radius: 1em ;
+        margin-bottom: .5em;
+
+    }
+    .sbt{
+    background: rgba(250,20,20,.2);
+    color: #420;
+    font-weight: bolder;
+    font-size: smaller;
+ }
+    p{
+        color: gray;
+        font-size: small;
+        margin: .5em auto;
+    }
+    main{
+       width: 80%;
+       height: inherit;
+       background: rgba(250,250,250,.3);
+       padding: 1em .6em;
+       border-radius: 1em;
+       display: flex;
+       flex-direction: column;
+        align-items: center;
+        gap: 1em;
+        overflow-y: scroll;
+    }
+
+ article{
+    width: 80%;
+    padding: 1em 1em;
+    background: #420;
+    border-radius: 1em;
+    color: #fff;
+    font-size: large;
+    font-family: fantasy;
+    position: relative;
+    
+ }
+.date{
+   position: absolute;
+   bottom: -.6em;
+   right: 3em;
+   color: rgba(250,250,250,.3);
+}
+.time{
+    position: absolute;
+    bottom: -.6em;
+    color: rgba(250,250,250,.3);
+}
